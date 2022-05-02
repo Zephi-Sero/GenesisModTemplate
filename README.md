@@ -1,2 +1,6 @@
 # GenesisModTemplate
 A Visual Studio Community solution template for making The Genesis Project mods using [ZGenesis](https://github.com/Zephi-Sero/ZGenesis/).
+## Usage
+You must have Visual Studio Community to import this template. Download the .zip from the [releases page](https://github.com/Zephi-Sero/GenesisModTemplate/releases) and move it to `Documents\Visual Studio (version)\Templates\Project Templates`. When you open Visual Studio Community next, it should now be in the Create New section.
+## Modding
+Right now, modding is very hard, with a lack of documentation for the mod patcher, nor much support yet in it. A lot will have to be done manually -- adding your own event hooks for when a player sends a message, for example -- to achieve the desired outcome of your mod. But if you think you can do it, it's highly recommended to take a look at other mods and the [Harmony](https://harmony.pardeike.net/articles/basics.html) tutorial articles. Try not to create your own Harmony instance -- DependentPatcher is there for that and also enables you to only have the patch run once dependencies are met.
