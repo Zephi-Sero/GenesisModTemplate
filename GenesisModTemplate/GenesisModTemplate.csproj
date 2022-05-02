@@ -5,21 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="0Harmony">
-      <HintPath>..\BuildDeps\0Harmony.dll</HintPath>
-    </Reference>
-    <Reference Include="Assembly-CSharp">
-      <HintPath>..\BuildDeps\Assembly-CSharp.dll</HintPath>
-    </Reference>
-    <Reference Include="Mirror">
-      <HintPath>..\BuildDeps\Mirror.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.CoreModule">
-      <HintPath>..\BuildDeps\UnityEngine.CoreModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>..\BuildDeps\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="ZGenesis">
       <HintPath>..\BuildDeps\ZGenesis.dll</HintPath>
     </Reference>

@@ -7,10 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenesisModTemplate", "Genes
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildDeps", "BuildDeps", "{68555FC4-621B-4ABA-96F7-B3E0B05331A0}"
 	ProjectSection(SolutionItems) = preProject
-		BuildDeps\0Harmony.dll = BuildDeps\0Harmony.dll
-		BuildDeps\Assembly-CSharp.dll = BuildDeps\Assembly-CSharp.dll
-		BuildDeps\UnityEngine.CoreModule.dll = BuildDeps\UnityEngine.CoreModule.dll
-		BuildDeps\UnityEngine.UI.dll = BuildDeps\UnityEngine.UI.dll
 		BuildDeps\ZGenesis.dll = BuildDeps\ZGenesis.dll
 	EndProjectSection
 EndProject
